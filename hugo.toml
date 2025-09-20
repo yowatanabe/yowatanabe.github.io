@@ -1,0 +1,29 @@
+baseURL = 'https://yowatanabe.github.io/'
+languageCode = 'ja'
+title = 'yowatanabe'
+theme = 'hugo-theme-hello-friend-ng'
+
+[params]
+  # ダーク/ライトモード切り替えボタンを表示(true|false)
+  enableThemeToggle = true
+  # プロフィールページに副業募集のお知らせを表示(true|false)
+  showSideJobNotice = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Profile"
+    url = "/profile/"
+    weight = 1
+  [[menu.main]]
+    name = "Career"
+    url = "/career/"
+    weight = 2
+  [[menu.main]]
+    name = "Side Job"
+    url = "/sidejob/"
+    weight = 3

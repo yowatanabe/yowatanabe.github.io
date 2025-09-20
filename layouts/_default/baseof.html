@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .Site.Params.defaultTheme }}{{ .Site.Params.defaultTheme }}{{ end }}">
+  {{ partial "header.html" . }}
+  
+  <main class="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  <div>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "javascript.html" . }}
+</body>
+</html>

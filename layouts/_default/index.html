@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $github := resources.GetRemote "https://api.github.com/users/yowatanabe" | transform.Unmarshal }}
+
+<div class="github-profile">
+  <img src="{{ $github.avatar_url }}" alt="GitHub Avatar" class="github-avatar">
+  <h1>{{ $github.name }}</h1>
+  <p class="github-bio">{{ $github.bio }}</p>
+
+  {{ if .Site.Params.showSideJobNotice }}
+  <div>
+    <br>
+    <p><strong>🔔 副業募集中です。詳細は<a href="/sidejob/">Side Job</a>ページをご覧ください。</strong></p>
+  </div>
+  {{ end }}
+</div>
+
+<style>
+.github-profile {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.github-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.github-bio {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: var(--accent);
+}
+
+
+</style>
+{{ end }}
