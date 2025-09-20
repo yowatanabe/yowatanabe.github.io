@@ -1,0 +1,15 @@
+{{ if .Site.Menus.main }}
+<nav class="menu">
+  <ul class="menu__inner">
+    {{ range .Site.Menus.main }}
+      {{ if eq .Name "Side Job" }}
+        {{ if $.Site.Params.showSideJobNotice }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      {{ else }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
