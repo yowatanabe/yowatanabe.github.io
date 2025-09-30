@@ -2,8 +2,6 @@
 title: "プロフィール"
 ---
 
-
-
 ## 名前
 
 渡邉 芳幸（Watanabe Yoshiyuki）
