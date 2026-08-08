@@ -53,8 +53,10 @@ title: "プロフィール"
 
 - **Email**: [ysyk.watanabe@gmail.com](mailto:ysyk.watanabe@gmail.com)
 - **GitHub**: [@yowatanabe](https://github.com/yowatanabe)
-- **LinkedIn**: [yoshiyuki-watanabe](https://www.linkedin.com/in/yoshiyuki-watanabe/)
 - **X**: [@yowatanabe_](https://x.com/yowatanabe_)
-- **Medium**: [@yoshiyuki.watanabe](https://medium.com/@yoshiyuki.watanabe)
+- **LinkedIn**: [@yoshiyuki-watanabe](https://www.linkedin.com/in/yoshiyuki-watanabe/)
+- **Medium**: [@yoshiyuki-watanabe](https://medium.com/@yoshiyuki-watanabe)
+- **dev.to**: [@yoshiyuki-watanabe](https://dev.to/yoshiyuki-watanabe)
+- **AWS Builder Center**: [@yowatanabe](https://builder.aws.com/community/@yowatanabe)
 - **Zenn**: [@yowatanabe](https://zenn.dev/yowatanabe)
-- **みんカラ**: [yowatanabe](https://minkara.carview.co.jp/userid/3538194/profile/)
+- **みんカラ**: [@yowatanabe](https://minkara.carview.co.jp/userid/3538194/profile/)
